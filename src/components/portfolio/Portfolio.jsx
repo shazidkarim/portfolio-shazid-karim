@@ -1,7 +1,7 @@
 import "./portfolio.css";
 
 import IMG1 from "../../assets/toy-car.png";
-import IMG2 from "../../assets/RubyCode Blog Project.jpg";
+import IMG2 from "../../assets/school.png";
 import IMG3 from "../../assets/Startup Agency Project.jpg";
 import IMG4 from "../../assets/7news.png";
 import IMG5 from "../../assets/Jokes Project.jpg";
@@ -22,22 +22,22 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "7News-Newspaper Website with MERN",
+      title: "7News-Newspaper Website",
       img: IMG4,
       description:
-        "The COVID Tracking Project collects and publishes the most complete testing data available for all areas of the world.",
+        "7News is a real-time news portal that offers a user-friendly  interface and is news delivery, secure authentication, and seamless navigation, 7News provides an immersive reading experience  for its users",
       technologies: "React | Mongodb | Firebase | Express",
       link: "https://lovely-sunflower-27c14a.netlify.app/",
       github: "#",
     },
     {
       id: 3,
-      title: "RubyCode Blog Project",
+      title: "School Management System",
       img: IMG2,
-      description: "This site is a kind of social media platform. You can register and share your posts.",
-      technologies: "React | Redux",
-      link: "https://rubycode-blog-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+      description: "Welcome to our School Management System, where efficiency meets education. Our user-friendly interface allows students, teachers, and administrators to effortlessly navigate through academic records, attendance tracking, and communication channels.",
+      technologies: "Html | CSS | Boostrap",
+      link: "https://slsuyel.github.io/school/",
+      github: "#",
     },
     {
       id: 4,
@@ -46,8 +46,8 @@ const Portfolio = () => {
       description:
         "A dedicated, standalone web page built for specific campaigns and target audiences.",
       technologies: "Html | CSS | JavaScript | Next Js",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+      link: "",
+      github: "",
     },
     {
       id: 5,
@@ -56,8 +56,8 @@ const Portfolio = () => {
       description:
         "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
       technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
+      link: "",
+      github: "",
     },
     {
       id: 6,
@@ -66,8 +66,8 @@ const Portfolio = () => {
       description:
         "Real-world group project which is still in progress and will provide educational platform for future young developers",
       technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+      link: "",
+      github: "",
     },
   ];
 
