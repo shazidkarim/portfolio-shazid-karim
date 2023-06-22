@@ -1,11 +1,8 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/toy-car.png";
-import IMG2 from "../../assets/school.png";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/7news.png";
-import IMG5 from "../../assets/Jokes Project.jpg";
-import IMG6 from "../../assets/Project4.jpg";
+import img11 from '../../assets/language learning(thumbnail).PNG';
+import img22 from '../../assets/teampico website(thumbnail).PNG';
+import img44 from '../../assets/toy shop website(thumbnail).PNG';
 import React from "react";
 
 //Portfolio function
@@ -13,62 +10,33 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Toy CarMania With React",
-      img: IMG1,
-      description: "oy CarMania is an engaging toy car website that allows users to explore, add, delete, and update toy car models. It combines front-end technologies like React with MongoDB for efficient data management.",
+      title: "Language Learning School",
+      img: img11,
+      description: "The website is built using React and focuses on language learning. Students can easily find their desired language courses on the website.Additionally, there is a Popular Instructors section highlighting the best instructors. The website supports three different user roles: normal users (defaulted as students), admin users, and instructor users. Admin users can review and modify classes, while instructors can add new classes. Each user role has a distinct dashboard. Users can enroll in classes, make payments, and gain access to purchased classes. Payment history is stored in a dedicated section.",
       technologies: "Html | CSS | Javascript | React Js | Mongodb | Firebase | Express",
-      link: "https://assignment-11-1f233.web.app/",
-      github: "#",
+      link: "https://summer-camp-ed1e8.web.app/",
+      github: "https://github.com/shazidkarim/language-learning-school-client-side",
     },
     {
       id: 2,
-      title: "7News-Newspaper Website",
-      img: IMG4,
+      title: "Toy Shop Website",
+      img: img44,
       description:
-        "7News is a real-time news portal that offers a user-friendly  interface and is news delivery, secure authentication, and seamless navigation, 7News provides an immersive reading experience  for its users",
-      technologies: "React | Mongodb | Firebase | Express",
-      link: "https://lovely-sunflower-27c14a.netlify.app/",
-      github: "#",
+        " This is an exclusive doll based website.In the home page several components are rendered. I am using react routing to navigate from one page to another.There are 3 different categories of dolls so that users can easily find their expected doll toy.There are several nav options in this website and without sign in/login they can not see these options.I am implementing firebase authentication to authenticate user.After login, users are allowed to visit and buy all the toys they chose.However a user can add a toy and display the toy in the all toys section.They can also update a toy and delete a toy.",
+      technologies: "ReactJS | React responsive modal | Daisy UI | Firebase | React tabs | MongoDB | NodeJS.",
+      link: "https://toy-marketplace-b333f.web.app/",
+      github: "https://github.com/shazidkarim/toy-shop-client-side",
     },
     {
       id: 3,
-      title: "School Management System",
-      img: IMG2,
-      description: "Welcome to our School Management System, where efficiency meets education. Our user-friendly interface allows students, teachers, and administrators to effortlessly navigate through academic records, attendance tracking, and communication channels.",
-      technologies: "Html | CSS | Boostrap",
-      link: "https://slsuyel.github.io/school/",
-      github: "#",
+      title: "Teampico Website",
+      img: img22,
+      description: "This website is focused on front end design. There are several sections that implement what we do in this website.User can explore more about our website.There is a section called our projects.In here users can see our latest projects.All the projects are sorting by their category. At the bottom of the website we implement a counter system using the JQuery library. this website still on development so please do not misunderstand. firebase authentication and authorization still on processing and router system also.",
+      technologies: "  HTML5 | Vanilla CSS | JQuery | Owl carousel.",
+      link: "https://shazidkarim.github.io/teampico-xd-file/?",
+      github: "https://github.com/shazidkarim/teampico-xd-file",
     },
-    {
-      id: 4,
-      title: "Startup Landing Page",
-      img: IMG3,
-      description:
-        "A dedicated, standalone web page built for specific campaigns and target audiences.",
-      technologies: "Html | CSS | JavaScript | Next Js",
-      link: "",
-      github: "",
-    },
-    {
-      id: 5,
-      title: "Jokes Project with Typescript",
-      img: IMG5,
-      description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "",
-      github: "",
-    },
-    {
-      id: 6,
-      title: "Fs Poster Website",
-      img: IMG6,
-      description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "",
-      github: "",
-    },
+   
   ];
 
   return (
