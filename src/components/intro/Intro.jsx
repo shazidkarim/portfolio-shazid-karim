@@ -5,7 +5,6 @@ import React from "react";
 import { VscFolderLibrary } from "react-icons/vsc";
 import img1 from '../../assets/edit one.jpg';
 
-// import ME from '../../assets/Rasif Tagizade image.jpg';
 
 
 const Intro = () => {
@@ -16,7 +15,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img1} alt="Suyel Haque" />
+            <img src={img1} alt="Shazid karim" />
           </div>
         </div>
         <div className="about__content">
